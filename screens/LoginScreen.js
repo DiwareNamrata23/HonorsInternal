@@ -33,15 +33,67 @@ const LoginScreen = () => {
 };
 
 const styles = StyleSheet.create({
-  container: { /*...*/ },
-  loginTitle: { /*...*/ },
-  input: { /*...*/ },
-  loginButton: { /*...*/ },
-  loginButtonText: { /*...*/ },
-  forgotPassword: { /*...*/ },
-  createAccount: { /*...*/ },
-  socialContainer: { /*...*/ },
-  socialButton: { /*...*/ },
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 20,
+    backgroundColor: '#fff',
+  },
+  loginTitle: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#292929',
+    marginBottom: 10,
+    textAlign: 'center',
+  },
+  subtitle: {
+    fontSize: 16,
+    color: '#666666',
+    textAlign: 'center',
+    marginBottom: 30,
+  },
+  input: {
+    width: '100%',
+    padding: 15,
+    borderRadius: 8,
+    backgroundColor: '#f0f0f0',
+    marginBottom: 20,
+  },
+  loginButton: {
+    backgroundColor: '#007bff',
+    padding: 15,
+    borderRadius: 8,
+    width: '100%',
+    alignItems: 'center',
+  },
+  loginButtonText: {
+    color: '#fff',
+    fontSize: 16,
+  },
+  forgotPassword: {
+    color: '#007bff',
+    textAlign: 'center',
+    marginTop: 15,
+  },
+  createAccount: {
+    marginTop: 20,
+    textAlign: 'center',
+  },
+  socialContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: 30,
+  },
+  socialButton: {
+    width: 50,
+    height: 50,
+    backgroundColor: '#f0f0f0',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 25,
+    marginHorizontal: 10,
+  },
 });
 
 export default LoginScreen;
